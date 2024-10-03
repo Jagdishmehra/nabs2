@@ -50,7 +50,7 @@ function CreateAccountForm({ handleNextStep }) {
       </div>
       <div className='flex justify-between mt-10'>
         <div className="mx-6 text-center">
-          <a href="#" className="text-blue-500 flex items-center gap-2 cursor-pointer"><IoIosArrowBack/>Back to Login</a>
+          <button className="text-blue-500 flex items-center gap-2 cursor-pointer"><IoIosArrowBack/>Back to Login</button>
         </div>
         <button onClick={handleNextStep} className="mx-6 flex items-center gap-2 px-10 bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600">Next Step<IoIosArrowForward/></button>
       </div>

@@ -72,7 +72,7 @@ function BusinessInformationForm({ handleNextStep, handlePreviousStep }) {
       </div>
       <div className='flex justify-between mt-10'>
     <div className=" text-center">
-      <a className="text-blue-500 flex items-center gap-2 cursor-pointer"><IoIosArrowBack/>Back to Login</a>
+      <button className="text-blue-500 flex items-center gap-2 cursor-pointer"><IoIosArrowBack/>Back to Login</button>
     </div>
     <div className='flex items-center gap-2'>
     <button onClick={handlePreviousStep}
